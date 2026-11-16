@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flexarion — Studio de jeux vidéo indé à Aix-en-Provence</title>
+  <meta name="description" content="Flexarion est un studio indépendant de jeux vidéo de science-fiction basé à Aix-en-Provence. Découvrez Maestral, notre jeu d’exploration à la voile solaire.">
+  <link rel="canonical" href="https://www.flexarion.example/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Flexarion">
+  <meta name="theme-color" content="#0c0a13">
+
+  <!-- Partage sur les réseaux sociaux (Open Graph) -->
+  <meta property="og:site_name" content="Flexarion">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Flexarion — Studio de jeux vidéo indé à Aix-en-Provence">
+  <meta property="og:description" content="Flexarion est un studio indépendant de jeux vidéo de science-fiction basé à Aix-en-Provence. Découvrez Maestral, notre jeu d’exploration à la voile solaire.">
+  <meta property="og:url" content="https://www.flexarion.example/">
+  <meta property="og:image" content="https://www.flexarion.example/assets/img/og-flexarion.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Flexarion, studio de jeux vidéo indépendant de science-fiction à Aix-en-Provence">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Icônes et flux -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="alternate" type="application/rss+xml" title="Devlogs Flexarion" href="devlog/feed.xml">
+
+  <!-- Polices et styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&amp;family=Manrope:wght@400;500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Données structurées (schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.flexarion.example/#organisation",
+        "name": "Flexarion",
+        "url": "https://www.flexarion.example/",
+        "logo": "https://www.flexarion.example/icon-512.png",
+        "image": "https://www.flexarion.example/assets/img/og-flexarion.jpg",
+        "description": "Flexarion est un studio de développement de jeux vidéo indépendant spécialisé dans la science-fiction, basé à Aix-en-Provence.",
+        "slogan": "Plier sans rompre.",
+        "foundingDate": "2023",
+        "email": "contact@flexarion.example",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Aix-en-Provence",
+          "postalCode": "13100",
+          "addressRegion": "Provence-Alpes-Côte d'Azur",
+          "addressCountry": "FR"
+        },
+        "areaServed": "FR",
+        "knowsAbout": [
+          "Jeu vidéo indépendant",
+          "Science-fiction",
+          "Game design",
+          "Développement de jeux vidéo"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.flexarion.example/#site",
+        "url": "https://www.flexarion.example/",
+        "name": "Flexarion",
+        "inLanguage": "fr-FR",
+        "description": "Site officiel de Flexarion, studio de jeux vidéo indépendant à Aix-en-Provence.",
+        "publisher": {
+          "@id": "https://www.flexarion.example/#organisation"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.flexarion.example/#page",
+        "url": "https://www.flexarion.example/",
+        "name": "Flexarion — Studio de jeux vidéo indé à Aix-en-Provence",
+        "description": "Flexarion est un studio indépendant de jeux vidéo de science-fiction basé à Aix-en-Provence. Découvrez Maestral, notre jeu d'exploration à la voile solaire.",
+        "inLanguage": "fr-FR",
+        "isPartOf": {
+          "@id": "https://www.flexarion.example/#site"
+        },
+        "about": {
+          "@id": "https://www.flexarion.example/#organisation"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu principal</a>
+
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="Flexarion — retour à l’accueil">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="degrade-logo" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#d9643a"/><stop offset=".55" stop-color="#f0a63c"/><stop offset="1" stop-color="#ffe2a8"/></linearGradient></defs><circle cx="8.5" cy="9.5" r="3.6" fill="#ffc670"/><path d="M17 33C14 20 21 8 36 4C31 13 30 23 34 33Z" fill="url(#degrade-logo)"/><path d="M9 21.5H14M5 27H13" stroke="#f3eadb" stroke-opacity=".6" stroke-width="1.6" stroke-linecap="round"/><path d="M4 34H37" stroke="#f3eadb" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <span class="brand__name">Flexarion</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+        <span class="sr-only">Ouvrir le menu</span>
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="menu-principal" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html" aria-current="page">Accueil</a></li>
+          <li><a href="studio.html">Le studio</a></li>
+          <li><a href="maestral.html">Maestral</a></li>
+          <li><a href="devlog/index.html">Devlogs</a></li>
+          <li><a href="contact.html">Contact &amp; presse</a></li>
+        </ul>
+        <a class="btn btn--primary btn--small" href="maestral.html#suivre">Suivre Maestral</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- Héros : présentation du studio -->
+    <section class="hero" aria-labelledby="titre-accueil">
+      <div class="hero__astre" aria-hidden="true"></div>
+      <div class="hero__orbite" aria-hidden="true"></div>
+      <div class="hero__orbite hero__orbite--2" aria-hidden="true"></div>
+      <canvas class="hero__vent" data-wind="rtl" aria-hidden="true"></canvas>
+
+      <div class="container">
+        <p class="hud">43°31′ N · 5°27′ E — Aix-en-Provence, Terre</p>
+        <h1 class="hero__title" id="titre-accueil">
+          <span class="hero__brand gradient-text">Flexarion</span>
+          <span class="hero__sub">Studio de jeux vidéo indépendant de science-fiction, né à Aix-en-Provence</span>
+        </h1>
+
+        <div class="hero__inner">
+          <div>
+            <p class="lead">Nous imaginons des mondes lointains depuis le pays de la lumière. Notre premier jeu, <strong>Maestral</strong>, vous confie un voilier solaire, une étoile capricieuse et un archipel orbital à rallumer, fanal après fanal.</p>
+            <div class="actions">
+              <a class="btn btn--primary" href="maestral.html">Découvrir Maestral <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn" href="studio.html">Rencontrer le studio</a>
+            </div>
+            <p class="hud hero__hint" aria-hidden="true">↳ Bougez le curseur&nbsp;: le vent solaire vous contourne.</p>
+          </div>
+
+          <aside class="logcard" aria-labelledby="titre-journal">
+            <h2 id="titre-journal">Journal de bord</h2>
+            <dl>
+              <div><dt>Projet</dt><dd>Maestral</dd></div>
+              <div><dt>Statut</dt><dd><span class="pulse" aria-hidden="true"></span>Pré-alpha jouable</dd></div>
+              <div><dt>Équipage</dt><dd>6 humains, 1 chat</dd></div>
+              <div><dt>Vent stellaire</dt><dd>412 km/s</dd></div>
+              <div><dt>Cap</dt><dd>Accès anticipé 2027</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jeu phare -->
+    <section class="section" aria-labelledby="titre-jeu">
+      <div class="container split">
+        <figure class="frame reveal">
+          <img src="assets/img/maestral-key-art-voilier-solaire.svg" alt="Illustration de Maestral&nbsp;: la Cigale, un voilier solaire à la grande voile ocre, remonte le vent d’une étoile orange vers un phare perché sur un îlot rocheux" width="1600" height="900" loading="lazy" decoding="async">
+          <figcaption class="hud">Maestral — la Cigale remonte le vent de l’Ocre</figcaption>
+        </figure>
+        <div class="reveal">
+          <p class="eyebrow"><span>01</span> Notre jeu phare</p>
+          <h2 id="titre-jeu">Maestral&nbsp;: remontez le vent d’une étoile mourante</h2>
+          <p>Dans <strong>Maestral</strong>, vous êtes Azalaïs, dernière balisière d’un archipel de terrasses orbitales. Aux commandes de la <em>Cigale</em>, un voilier solaire rafistolé, vous remontez un vent stellaire de plus en plus violent pour rallumer les fanaux qui guideront l’exode de tout un peuple.</p>
+          <p>Un jeu d’exploration et de navigation sans combat, où l’on apprend à lire le vent comme un marin lit la mer.</p>
+          <dl class="facts">
+            <div><dt>Genre</dt><dd>Exploration, navigation</dd></div>
+            <div><dt>Univers</dt><dd>Science-fiction</dd></div>
+            <div><dt>Plateforme</dt><dd>PC</dd></div>
+            <div><dt>Sortie</dt><dd>Accès anticipé 2027</dd></div>
+          </dl>
+          <div class="actions">
+            <a class="btn btn--primary" href="maestral.html">Explorer l’univers de Maestral <span class="arrow" aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Positionnement -->
+    <section class="section section--panel" aria-labelledby="titre-positionnement">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span>02</span> Notre positionnement</p>
+          <h2 id="titre-positionnement">Une science-fiction qui sent le soleil</h2>
+          <p>La science-fiction n’est pas condamnée au néon et à la pluie. Chez Flexarion, studio indépendant installé à Aix-en-Provence, nous défendons une SF lumineuse, tactile et optimiste&nbsp;: des jeux à taille humaine, où l’on prend le temps de comprendre un monde avant de vouloir le sauver.</p>
+        </header>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <span class="card__num hud">A</span>
+            <h3>Des mondes à explorer, pas à conquérir</h3>
+            <p>Pas d’empire à bâtir ni de galaxie à raser. Nos jeux récompensent la curiosité&nbsp;: lire un vent, dessiner une carte, écouter ce qu’un lieu a à raconter.</p>
+          </article>
+          <article class="card reveal" style="--delai: .1s">
+            <span class="card__num hud">B</span>
+            <h3>Des systèmes lisibles et profonds</h3>
+            <p>Une poignée de règles simples, qui se combinent longtemps. Si une mécanique a besoin de dix minutes de tutoriel, nous la retravaillons.</p>
+          </article>
+          <article class="card reveal" style="--delai: .2s">
+            <span class="card__num hud">C</span>
+            <h3>Fabriqué à Aix, en toute transparence</h3>
+            <p>Une petite équipe, zéro crunch et un développement ouvert&nbsp;: chaque mois, nos devlogs montrent ce qui marche — et ce qui casse.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chiffres clés -->
+    <section class="section section--tight" aria-labelledby="titre-chiffres">
+      <div class="container">
+        <h2 class="sr-only" id="titre-chiffres">Flexarion en quelques chiffres</h2>
+        <dl class="stats reveal">
+          <div><dt>année de création du studio, à Aix-en-Provence</dt><dd class="gradient-text">2023</dd></div>
+          <div><dt>artisans du jeu vidéo à plein temps</dt><dd class="gradient-text">6</dd></div>
+          <div><dt>joueurs à bord de notre première démo</dt><dd class="gradient-text">124</dd></div>
+          <div><dt>jours de soleil par an pour gonfler nos voiles</dt><dd class="gradient-text">300</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Derniers devlogs -->
+    <section class="section" aria-labelledby="titre-devlogs">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow"><span>03</span> Journal de développement</p>
+          <h2 id="titre-devlogs">Les derniers devlogs de Flexarion</h2>
+          <p>Code, direction artistique, playtests&nbsp;: nous documentons la fabrication de Maestral au fil de l’eau, sans filtre.</p>
+        </header>
+        <ul class="posts">
+            <li class="reveal">
+              <article class="card card--link post-card">
+                <div class="post-card__media">
+                  <img src="assets/img/devlog-playtest-demo.svg" alt="Infographie du premier playtest de Maestral&nbsp;: 124 joueurs, dont 71 % rallument le premier fanal sans aide, et une courbe des durées de session" width="1200" height="630" loading="lazy" decoding="async">
+                </div>
+                <div class="post-card__body">
+                  <ul class="tags" aria-label="Thèmes"><li class="tag tag--ocre">Playtest</li><li class="tag">Production</li></ul>
+                  <h3><a href="devlog/premiere-demo-maestral-bilan-playtest.html">Devlog 03 — Première démo de Maestral&nbsp;: ce que 124 joueurs nous ont appris</a></h3>
+                  <p>Dix jours de playtest, 124 joueurs, un rocher maudit et trois leçons de design&nbsp;: le bilan sans fard de notre première démo.</p>
+                  <p class="post-meta hud"><time datetime="2026-11-06">6 novembre 2026</time><span>6 min de lecture</span></p>
+                  <span class="link-arrow" aria-hidden="true">Lire le devlog</span>
+                </div>
+              </article>
+            </li>
+            <li class="reveal">
+              <article class="card card--link post-card">
+                <div class="post-card__media">
+                  <img src="assets/img/devlog-direction-artistique-palette.svg" alt="Le nuancier de Maestral&nbsp;: cinq bandes de couleur, nuit, calcaire, ocre, terre cuite et lavande, à côté d’une montagne peinte en facettes" width="1200" height="630" loading="lazy" decoding="async">
+                </div>
+                <div class="post-card__body">
+                  <ul class="tags" aria-label="Thèmes"><li class="tag tag--ocre">Direction artistique</li><li class="tag">Univers</li></ul>
+                  <h3><a href="devlog/direction-artistique-science-fiction-provence.html">Devlog 02 — Direction artistique&nbsp;: peindre la science-fiction aux couleurs de la Provence</a></h3>
+                  <p>Comment nous avons remplacé le néon cyan de la science-fiction par l’ocre de Roussillon, le calcaire de la Sainte-Victoire et la lavande.</p>
+                  <p class="post-meta hud"><time datetime="2026-10-16">16 octobre 2026</time><span>6 min de lecture</span></p>
+                  <span class="link-arrow" aria-hidden="true">Lire le devlog</span>
+                </div>
+              </article>
+            </li>
+            <li class="reveal">
+              <article class="card card--link post-card">
+                <div class="post-card__media">
+                  <img src="assets/img/devlog-simulation-vent-solaire.svg" alt="Schéma technique&nbsp;: un champ de flèches représente le vent solaire, et un diagramme montre la poussée exercée sur une voile inclinée" width="1200" height="630" loading="lazy" decoding="async">
+                </div>
+                <div class="post-card__body">
+                  <ul class="tags" aria-label="Thèmes"><li class="tag tag--ocre">Programmation</li><li class="tag">Game design</li></ul>
+                  <h3><a href="devlog/simuler-le-vent-solaire.html">Devlog 01 — Simuler le vent solaire&nbsp;: comment la Cigale a appris à tirer des bords</a></h3>
+                  <p>Champ de vecteurs, poussée en cos² et «&nbsp;quille magnétique&nbsp;»&nbsp;: les dessous de la simulation de vent au cœur de Maestral.</p>
+                  <p class="post-meta hud"><time datetime="2026-09-18">18 septembre 2026</time><span>7 min de lecture</span></p>
+                  <span class="link-arrow" aria-hidden="true">Lire le devlog</span>
+                </div>
+              </article>
+            </li>
+          </ul>
+        <div class="actions">
+          <a class="btn" href="devlog/index.html">Tous les devlogs <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appel à l'action -->
+    <section class="section section--tight" aria-labelledby="titre-contact">
+      <div class="container">
+        <div class="cta reveal">
+          <p class="eyebrow">Contact &amp; presse</p>
+          <h2 id="titre-contact">Montez à bord avant tout le monde</h2>
+          <p>Journaliste, créateur de contenu ou simple curieux&nbsp;: écrivez-nous pour recevoir le kit presse, proposer un partenariat ou rejoindre la prochaine session de playtest de Maestral.</p>
+          <div class="actions">
+            <a class="btn btn--primary" href="contact.html">Contacter Flexarion <span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn" href="contact.html#presse">Espace presse</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a class="brand" href="index.html" aria-label="Flexarion — retour à l’accueil">
+            <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><defs><linearGradient id="degrade-logo-pied" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#d9643a"/><stop offset=".55" stop-color="#f0a63c"/><stop offset="1" stop-color="#ffe2a8"/></linearGradient></defs><circle cx="8.5" cy="9.5" r="3.6" fill="#ffc670"/><path d="M17 33C14 20 21 8 36 4C31 13 30 23 34 33Z" fill="url(#degrade-logo-pied)"/><path d="M9 21.5H14M5 27H13" stroke="#f3eadb" stroke-opacity=".6" stroke-width="1.6" stroke-linecap="round"/><path d="M4 34H37" stroke="#f3eadb" stroke-width="2.4" stroke-linecap="round"/></svg>
+            <span class="brand__name">Flexarion</span>
+          </a>
+          <p>Studio de jeux vidéo indépendant de science-fiction, installé à Aix-en-Provence. Créateur de Maestral.</p>
+        </div>
+        <nav aria-label="Plan du site">
+          <h2>Explorer</h2>
+          <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="studio.html">Le studio</a></li>
+              <li><a href="maestral.html">Maestral</a></li>
+              <li><a href="devlog/index.html">Devlogs</a></li>
+              <li><a href="contact.html">Contact &amp; presse</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Rubriques de Maestral">
+          <h2>Maestral</h2>
+          <ul>
+            <li><a href="maestral.html#univers">L’univers du jeu</a></li>
+            <li><a href="maestral.html#mecaniques">Les mécaniques</a></li>
+            <li><a href="maestral.html#visuels">Visuels et ambiances</a></li>
+            <li><a href="maestral.html#faq">Questions fréquentes</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Le studio</h2>
+          <address>
+            Flexarion<br>
+            13100 Aix-en-Provence<br>
+            Provence, France<br>
+            <a href="mailto:contact@flexarion.example">contact@flexarion.example</a>
+          </address>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p>© 2026 Flexarion — studio fictif imaginé pour un concours du BUT Informatique d’Aix-en-Provence.</p>
+        <p><a href="mentions-legales.html">Mentions légales</a> · <a href="devlog/feed.xml">Flux RSS</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

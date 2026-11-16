@@ -1,0 +1,5 @@
+# Flexarion — tout le site est ouvert à l'exploration
+User-agent: *
+Allow: /
+
+Sitemap: https://www.flexarion.example/sitemap.xml
