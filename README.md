@@ -40,7 +40,7 @@ flexarion/
 ## À faire avant la mise en ligne
 
 1. **Remplacer le domaine provisoire.** Dans tout le dossier `flexarion/`, « Rechercher et remplacer » :
-   - `https://www.flexarion.example` → l'adresse réelle du site (sans barre oblique finale) ;
+   - `https://el-mestari-aymen-24005190.github.io/Projet-Flexarion` → l'adresse réelle du site (sans barre oblique finale) ;
    - `flexarion.example` → le domaine des adresses e-mail.
    Cela met à jour les balises `canonical`, Open Graph, les données structurées, `sitemap.xml`, `robots.txt` et le flux RSS.
 2. **Compléter les mentions légales** (`mentions-legales.html`) : les crochets `[Prénom Nom]` et `[Nom de l'hébergeur]`.
