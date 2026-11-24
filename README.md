@@ -39,15 +39,11 @@ flexarion/
 
 ## À faire avant la mise en ligne
 
-1. **Remplacer le domaine provisoire.** Dans tout le dossier `flexarion/`, « Rechercher et remplacer » :
-   - `https://el-mestari-aymen-24005190.github.io/Projet-Flexarion` → l'adresse réelle du site (sans barre oblique finale) ;
-   - `flexarion.example` → le domaine des adresses e-mail.
-   Cela met à jour les balises `canonical`, Open Graph, les données structurées, `sitemap.xml`, `robots.txt` et le flux RSS.
-2. **Compléter les mentions légales** (`mentions-legales.html`) : les crochets `[Prénom Nom]` et `[Nom de l'hébergeur]`.
+1. ~~Remplacer le domaine provisoire~~ : fait. Le site utilise `https://el-mestari-aymen-24005190.github.io/Projet-Flexarion` et l'adresse `flexarioncontact@gmail.com`.
+2. **Compléter les mentions légales** (`mentions-legales.html`) : les crochets `[Prénom Nom]` (l'hébergeur est déjà renseigné).
 3. **Formulaire de contact.** Il ouvre la messagerie du visiteur (`mailto:`). Pour un envoi direct, brancher un service
    de formulaires (Formspree, Netlify Forms…) dans le bloc 7 de `assets/js/main.js`.
-4. **Hébergement dans un sous-dossier** (par exemple `utilisateur.github.io/flexarion/`) : `404.html` utilise des chemins
-   absolus (`/assets/…`) ; les préfixer par le nom du sous-dossier.
+4. ~~Hébergement dans un sous-dossier~~ : fait. Les chemins de `404.html` commencent par `/Projet-Flexarion/`.
 
 ## Après la mise en ligne
 
