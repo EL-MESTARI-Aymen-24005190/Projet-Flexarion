@@ -1,5 +1,0 @@
-# Flexarion — tout le site est ouvert à l'exploration
-User-agent: *
-Allow: /
-
-Sitemap: https://el-mestari-aymen-24005190.github.io/Projet-Flexarion/sitemap.xml
